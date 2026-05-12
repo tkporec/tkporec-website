@@ -33,7 +33,7 @@ export default function OurRace() {
             3Poreč Triatlon
           </h2>
           <p style={{ color: 'var(--gray-600)', fontSize: 17, maxWidth: 580, margin: '16px auto 0', lineHeight: 1.7 }}>
-            Naša vlastita utrka — sprint triatlon u srcu Poreča. Organiziramo je s ljubavlju za sport
+            Naša vlastita utrka — Triatlon za sve (idealno za isprobati) i sprint triatlon, sve to u srcu Poreča. Organiziramo je s ljubavlju za sport
             i ponudom neponovljivog iskustva za natjecatelje svih razina.
           </p>
         </motion.div>
