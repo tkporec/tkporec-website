@@ -282,9 +282,7 @@ const results = [
   },
 ]
 
-const upcoming = [
-  { race: 'Wings for Life App Race Rovinj', date: '10.6.2026.', distance: '~40 km', flag: '🇭🇷' },
-]
+const upcoming = []
 
 const years = ['Sve', '2026', '2025']
 

@@ -3,8 +3,9 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 const links = [
   { label: 'Početna', href: '#home' },
-  { label: 'Rezultati', href: '#results' },
   { label: 'O nama', href: '#about' },
+  { label: 'Rezultati', href: '#results' },
+  { label: 'Galerija', href: '#galerija' },
   { label: 'Naša utrka', href: '#our-race' },
   { label: 'Kontakt', href: '#contact' },
 ]

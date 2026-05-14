@@ -53,7 +53,7 @@ export default function OurRace() {
           }}
         >
           <img
-            src="https://www.tkporec.hr/wp-content/uploads/2025/02/481044928_122169574976280053_3121264263071609685_n-1-854x1024.jpg"
+            src="/3porec-poster.jpg.jpg"
             alt="3Poreč Triatlon"
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
           />
@@ -163,7 +163,7 @@ export default function OurRace() {
             </div>
             <p style={{ opacity: 0.85, lineHeight: 1.7, marginBottom: 28, fontSize: 15 }}>
               Pripremi se, startaj i prelazi cilj na vlastitoj obali.
-              Prijave za 3Poreč 2026 uskoro otvorene.
+              Prijave za 3Poreč su otvorene.
             </p>
             <a
               href="#contact"
@@ -181,6 +181,21 @@ export default function OurRace() {
             <div style={{ marginTop: 16, opacity: 0.65, fontSize: 13 }}>
               Besplatne obavijesti o otvaranju prijava
             </div>
+            <a
+              href="https://fb.me/e/7J86dlqo6"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'inline-flex', alignItems: 'center', gap: 6,
+                marginTop: 14, color: 'rgba(255,255,255,0.7)', fontSize: 13,
+                textDecoration: 'underline', textUnderlineOffset: 3,
+              }}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+              Facebook event →
+            </a>
           </motion.div>
         </div>
       </div>
