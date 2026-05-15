@@ -27,7 +27,7 @@ export default function Hero() {
         style={{
           position: 'absolute',
           inset: 0,
-          backgroundImage: `url(/hero-bg.jpg)`,
+          backgroundImage: `url(https://www.tkporec.hr/wp-content/uploads/2025/02/481044928_122169574976280053_3121264263071609685_n-1-854x1024.jpg)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center top',
           opacity: 0.28,

@@ -55,7 +55,7 @@ export default function About() {
               }}
             >
               <img
-                src="/about-shirt.jpg"
+                src="https://www.tkporec.hr/wp-content/uploads/2024/12/logo-majca-1-1024x562.jpg"
                 alt="TK Poreč oprema"
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />

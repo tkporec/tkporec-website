@@ -22,7 +22,7 @@ export default function Footer() {
           {/* Logo */}
           <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
             <img
-              src="/tkp.png"
+              src="https://www.tkporec.hr/wp-content/uploads/2024/12/cropped-tkp.png"
               alt="TK Poreč"
               style={{ height: 40, width: 'auto' }}
             />
