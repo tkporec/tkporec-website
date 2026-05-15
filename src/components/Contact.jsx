@@ -83,7 +83,7 @@ export default function Contact() {
                 { icon: '📍', label: 'Lokacija', value: 'Poreč, Istarska županija, Hrvatska' },
                 { icon: '🌐', label: 'Web', value: 'www.tkporec.hr', link: 'https://www.tkporec.hr' },
                 { icon: '📘', label: 'Facebook', value: 'TK Poreč', link: 'https://facebook.com/profile.php?id=61558401613135' },
-                { icon: '🏛️', label: 'Savez', value: 'Hrvatski Triatlonski Savez' },
+                { icon: '🏛️', label: 'Savez', value: 'Hrvatski Triatlonski Savez', link: 'https://triatlon.hr/' },
               ].map((item) => (
                 <div key={item.label} style={{ display: 'flex', gap: 14, alignItems: 'flex-start' }}>
                   <div style={{
