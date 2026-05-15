@@ -48,20 +48,12 @@ export default function Navbar() {
     >
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         {/* Logo */}
-        <a href="#home" onClick={() => handleNav('#home')} style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+        <a href="#home" onClick={() => handleNav('#home')}>
           <img
             src="/tkp.png"
             alt="TK Poreč"
-            style={{ height: 44, width: 'auto' }}
+            style={{ height: 128, width: 'auto', display: 'block' }}
           />
-          <div>
-            <div style={{ color: '#fff', fontWeight: 800, fontSize: 15, letterSpacing: '0.05em', lineHeight: 1.1 }}>
-              TK POREČ
-            </div>
-            <div style={{ color: 'var(--accent)', fontSize: 10, fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase' }}>
-              Triatlon Klub
-            </div>
-          </div>
         </a>
 
         {/* Desktop Nav */}
