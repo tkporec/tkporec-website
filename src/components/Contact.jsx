@@ -68,7 +68,7 @@ export default function Contact() {
           >
             <div style={{ marginBottom: 40 }}>
               <img
-                src="https://www.tkporec.hr/wp-content/uploads/2024/12/cropped-tkp.png"
+                src="/tkp.png"
                 alt="TK Poreč Logo"
                 style={{ height: 64, marginBottom: 20 }}
               />

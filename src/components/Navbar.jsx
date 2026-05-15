@@ -50,7 +50,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#home" onClick={() => handleNav('#home')} style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
           <img
-            src="https://www.tkporec.hr/wp-content/uploads/2024/12/cropped-tkp.png"
+            src="/tkp.png"
             alt="TK Poreč"
             style={{ height: 44, width: 'auto' }}
           />
