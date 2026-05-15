@@ -2,7 +2,7 @@ import { motion, useInView } from 'framer-motion'
 import { useRef, useState } from 'react'
 
 const FORMSPREE_URL = 'https://formspree.io/f/xkoyyazb'
-const interests = ['Postati član', 'Trening info', 'Utrka 3Poreč', 'Sponzorstvo', 'Nešto drugo']
+const interests = ['Postati član', 'Trening info', 'Utrka 3Poreč', 'Nešto drugo']
 
 export default function Contact() {
   const ref = useRef(null)
