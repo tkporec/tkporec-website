@@ -51,40 +51,42 @@ export default function Footer() {
           </nav>
 
           {/* Social */}
-          <a
-            href="https://facebook.com/profile.php?id=61558401613135"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: 'flex', alignItems: 'center', gap: 8,
-              background: 'rgba(255,255,255,0.06)',
-              border: '1px solid rgba(255,255,255,0.1)',
-              borderRadius: 8, padding: '8px 16px',
-              color: 'rgba(255,255,255,0.7)', fontSize: 13, fontWeight: 500,
-              transition: 'all 0.2s',
-            }}
-            onMouseOver={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.1)'; e.currentTarget.style.color = '#fff' }}
-            onMouseOut={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.06)'; e.currentTarget.style.color = 'rgba(255,255,255,0.7)' }}
-          >
-            📘 Facebook
-          </a>
-          <a
-            href="https://www.strava.com/clubs/tkporec"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: 'flex', alignItems: 'center', gap: 8,
-              background: 'rgba(255,255,255,0.06)',
-              border: '1px solid rgba(255,255,255,0.1)',
-              borderRadius: 8, padding: '8px 16px',
-              color: 'rgba(255,255,255,0.7)', fontSize: 13, fontWeight: 500,
-              transition: 'all 0.2s',
-            }}
-            onMouseOver={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.1)'; e.currentTarget.style.color = '#fff' }}
-            onMouseOut={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.06)'; e.currentTarget.style.color = 'rgba(255,255,255,0.7)' }}
-          >
-            🟠 Strava
-          </a>
+          <div style={{ display: 'flex', gap: 8 }}>
+            <a
+              href="https://facebook.com/profile.php?id=61558401613135"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'flex', alignItems: 'center', gap: 8,
+                background: 'rgba(255,255,255,0.06)',
+                border: '1px solid rgba(255,255,255,0.1)',
+                borderRadius: 8, padding: '8px 16px',
+                color: 'rgba(255,255,255,0.7)', fontSize: 13, fontWeight: 500,
+                transition: 'all 0.2s',
+              }}
+              onMouseOver={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.1)'; e.currentTarget.style.color = '#fff' }}
+              onMouseOut={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.06)'; e.currentTarget.style.color = 'rgba(255,255,255,0.7)' }}
+            >
+              📘 Facebook
+            </a>
+            <a
+              href="https://www.strava.com/clubs/tkporec"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'flex', alignItems: 'center', gap: 8,
+                background: 'rgba(255,255,255,0.06)',
+                border: '1px solid rgba(255,255,255,0.1)',
+                borderRadius: 8, padding: '8px 16px',
+                color: 'rgba(255,255,255,0.7)', fontSize: 13, fontWeight: 500,
+                transition: 'all 0.2s',
+              }}
+              onMouseOver={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.1)'; e.currentTarget.style.color = '#fff' }}
+              onMouseOut={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.06)'; e.currentTarget.style.color = 'rgba(255,255,255,0.7)' }}
+            >
+              🟠 Strava
+            </a>
+          </div>
         </div>
 
         {/* Bottom */}
