@@ -96,10 +96,7 @@ export default function Footer() {
           </div>
           <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
             <span style={{ color: 'rgba(255,255,255,0.2)', fontSize: 12 }}>Član</span>
-            <a href="https://triatlon.hr/" target="_blank" rel="noopener noreferrer" style={{ background: 'rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.4)', padding: '3px 10px', borderRadius: 100, fontSize: 11, fontWeight: 600, letterSpacing: '0.05em', transition: 'color 0.2s' }}
-              onMouseOver={e => e.currentTarget.style.color = '#fff'}
-              onMouseOut={e => e.currentTarget.style.color = 'rgba(255,255,255,0.4)'}
-            >HTS</a>
+            <span style={{ background: 'rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.4)', padding: '3px 10px', borderRadius: 100, fontSize: 11, fontWeight: 600, letterSpacing: '0.05em' }}>HTS</span>
             <span style={{ background: 'rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.4)', padding: '3px 10px', borderRadius: 100, fontSize: 11, fontWeight: 600, letterSpacing: '0.05em' }}>TAS IŽ</span>
           </div>
         </div>
