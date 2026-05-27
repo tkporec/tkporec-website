@@ -3,6 +3,36 @@ import { useRef, useState } from 'react'
 
 const results = [
   {
+    race: 'Ultra Trail Učka',
+    date: '23.5.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Damir Jurišević', km: '13 km', time: '02:29:10', note: '' },
+    ],
+  },
+  {
+    race: 'Hybrid Race Rijeka',
+    date: '23.5.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Dean Brebrić', km: 'Hyrox format', time: '42:24', note: '' },
+      { name: 'Goran Peić-Gavran', km: '5×800m + 5 zadataka', time: '43:23', note: '' },
+      { name: 'Goran Saršon', km: '4 km', time: '00:48:00', note: '' },
+    ],
+  },
+  {
+    race: '1. Tovar trail',
+    date: '16.5.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Fran Volović', km: '13.5 km', time: '58:30', note: '' },
+      { name: 'Mateo Popić', km: '6 km', time: '00:35:44', note: '' },
+    ],
+  },
+  {
     race: 'XTERRA / Državno Triatlon Prvenstvo',
     date: '9.5.2026.',
     year: '2026',
@@ -21,6 +51,7 @@ const results = [
     flag: '🇭🇷',
     athletes: [
       { name: 'Marko Horvat', km: '35.06 km', time: '2:43:27', note: '52/8000' },
+      { name: 'Fran Volović', km: '32.7 km', time: '02:35:14', note: '' },
     ],
   },
   {
