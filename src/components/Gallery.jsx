@@ -82,7 +82,7 @@ export default function Gallery() {
               whileTap={{ scale: 0.98 }}
             >
               <img
-                src={thumbUrl(img.id)}
+                src={thumbUrl(img)}
                 alt={img.alt}
                 loading="lazy"
                 style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', transition: 'transform 0.4s ease' }}
@@ -165,7 +165,7 @@ export default function Gallery() {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.95 }}
               transition={{ duration: 0.25 }}
-              src={fullUrl(galleryImages[selected].id)}
+              src={fullUrl(galleryImages[selected])}
               alt={galleryImages[selected].alt}
               onClick={e => e.stopPropagation()}
               style={{

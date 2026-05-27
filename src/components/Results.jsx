@@ -19,7 +19,7 @@ const results = [
     athletes: [
       { name: 'Dean Brebrić', km: 'Hyrox format', time: '42:24', note: '' },
       { name: 'Goran Peić-Gavran', km: '5×800m + 5 zadataka', time: '43:23', note: '' },
-      { name: 'Goran Saršon', km: '4 km', time: '00:48:00', note: '' },
+      { name: 'Goran Saršon', km: 'Hyrox format', time: '00:48:00', note: '' },
     ],
   },
   {
@@ -28,7 +28,7 @@ const results = [
     year: '2026',
     flag: '🇭🇷',
     athletes: [
-      { name: 'Fran Volović', km: '13.5 km', time: '58:30', note: '' },
+      { name: 'Fran Volović', km: '13.5 km', time: '58:30', note: '1. mjesto' },
       { name: 'Mateo Popić', km: '6 km', time: '00:35:44', note: '' },
     ],
   },

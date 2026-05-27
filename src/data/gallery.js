@@ -8,12 +8,16 @@ export const galleryImages = [
   { id: '696249302_122233958222280053_516669655815961040_n_eynxfd', alt: 'Utrka TK Poreč' },
   { id: '686037906_122233234766280053_5061107559775340707_n_imuikx', alt: 'Utrka TK Poreč' },
   { id: '696737850_122233991294280053_1743499492699327477_n_aasgga', alt: 'Utrka TK Poreč' },
+  { src: 'damir trail.jpg', alt: 'Damir Jurišević - Ultra Trail Učka' },
+  { src: 'hyrox.jpg', alt: 'Hybrid Race Rijeka' },
 ]
 
-export function thumbUrl(id) {
-  return `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/w_600,h_400,c_fill,q_auto,f_auto/${id}`
+export function thumbUrl(img) {
+  if (img.src) return `/gallery/${img.src}`
+  return `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/w_600,h_400,c_fill,q_auto,f_auto/${img.id}`
 }
 
-export function fullUrl(id) {
-  return `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/q_auto,f_auto/${id}`
+export function fullUrl(img) {
+  if (img.src) return `/gallery/${img.src}`
+  return `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/q_auto,f_auto/${img.id}`
 }
