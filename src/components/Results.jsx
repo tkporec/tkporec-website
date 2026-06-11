@@ -3,6 +3,17 @@ import { useRef, useState } from 'react'
 
 const results = [
   {
+    race: '18. Rab Triatlon',
+    date: '6.6.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Marko Horvat', km: '25.75 km', time: '01:03:57', note: 'M35 1. mjesto' },
+      { name: 'Fran Volović', km: '25.75 km', time: '01:07:40', note: '' },
+      { name: 'Mladen Kerin', km: '25.75 km', time: '01:18:22', note: '' },
+    ],
+  },
+  {
     race: 'Ultra Trail Učka',
     date: '23.5.2026.',
     year: '2026',

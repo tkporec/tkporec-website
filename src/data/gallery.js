@@ -10,6 +10,7 @@ export const galleryImages = [
   { id: '696737850_122233991294280053_1743499492699327477_n_aasgga', alt: 'Utrka TK Poreč' },
   { src: 'damir trail.jpg', alt: 'Damir Jurišević - Ultra Trail Učka' },
   { src: 'hyrox.jpg', alt: 'Hybrid Race Rijeka' },
+  { src: '719217534_122237381702280053_5391602008341654666_n.jpg', alt: 'TK Poreč' },
 ]
 
 export function thumbUrl(img) {
