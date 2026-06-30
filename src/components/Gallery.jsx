@@ -63,7 +63,7 @@ export default function Gallery() {
         }}>
           {galleryImages.map((img, i) => (
             <motion.button
-              key={img.id}
+              key={img.id || img.src}
               initial={{ opacity: 0, scale: 0.95 }}
               animate={inView ? { opacity: 1, scale: 1 } : {}}
               transition={{ duration: 0.4, delay: Math.min(i * 0.05, 0.5) }}
