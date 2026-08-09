@@ -3,6 +3,86 @@ import { useRef, useState } from 'react'
 
 const results = [
   {
+    race: 'Ironman Krakow 70.3',
+    date: '2.8.2026.',
+    year: '2026',
+    flag: '🇵🇱',
+    athletes: [
+      { name: 'Fran Volović', km: '113 km', time: '04:54:04', note: 'PB' },
+      { name: 'Božidar Mihić', km: '113 km', time: '05:41:46', note: '' },
+    ],
+  },
+  {
+    race: 'Risnjak trail',
+    date: '25.7.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Damir Jurišević', km: '11 km', time: '01:31:25', note: '' },
+    ],
+  },
+  {
+    race: 'Zagreb Olympic Tri PH',
+    date: '11.7.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Marko Horvat', km: '51.5 km', time: '02:10:43', note: '2. AG' },
+      { name: 'Mladen Kerin', km: '51.5 km', time: '2:29:17', note: '' },
+    ],
+  },
+  {
+    race: 'Blueredgreen Triatlon Imotski',
+    date: '27.6.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Marko Horvat', km: '25.75 km', time: '1:34:42', note: '5. mjesto' },
+    ],
+  },
+  {
+    race: 'KULtrail Savičenta 2026',
+    date: '20.6.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Damir Jurišević', km: '5 km', time: '00:33:21', note: '' },
+      { name: 'Antonio Puniš', km: '9.3 km', time: '00:41:08', note: '8. mjesto' },
+    ],
+  },
+  {
+    race: 'Ironman Tours Francuska',
+    date: '14.6.2026.',
+    year: '2026',
+    flag: '🇫🇷',
+    athletes: [
+      { name: 'Đurđica Orepić', km: '226 km', time: '11:29:16', note: '' },
+    ],
+  },
+  {
+    race: 'XCM Bike Marathon Bale 2026',
+    date: '14.6.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Dean Brebrić', km: '30 km', time: '1:21:09', note: '' },
+      { name: 'Goran Saršon', km: '30 km', time: '01:22:45', note: '' },
+      { name: 'Marko Horvat', km: '30 km', time: '01:24:02', note: '' },
+      { name: 'Antonio Puniš', km: '30 km', time: '01:30:24', note: '' },
+    ],
+  },
+  {
+    race: '6 Fortresses Run Bale 2026',
+    date: '12.6.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Antonio Puniš', km: '8.23 km', time: '00:29:55', note: '1. mjesto' },
+      { name: 'Marko Horvat', km: '8.2 km', time: '00:31:22', note: '2. mjesto' },
+      { name: 'Mladen Kerin', km: '8.2 km', time: '00:37:19', note: '' },
+    ],
+  },
+  {
     race: '18. Rab Triatlon',
     date: '6.6.2026.',
     year: '2026',
