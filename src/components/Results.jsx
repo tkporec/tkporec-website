@@ -3,6 +3,115 @@ import { useRef, useState } from 'react'
 
 const results = [
   {
+    race: 'Umag Run 2026 HM',
+    date: '3.10.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Antonio Puniš', km: '21.1 km', time: '1:19:41', note: '1. mjesto' },
+    ],
+  },
+  {
+    race: 'Zadarhalf – Prvenstvo Hrvatske u srednjem triatlonu',
+    date: '27.9.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Mislav Kemec', km: '113 km', time: '4:31:10', note: '1. mjesto M35' },
+      { name: 'Tomaž Kovač', km: '113 km', time: '4:50:22', note: '1. mjesto M55' },
+      { name: 'Marko Horvat', km: '113 km', time: '4:51:04', note: '2. mjesto M35' },
+      { name: 'Fran Volović', km: '113 km', time: '5:02:56', note: '' },
+      { name: 'Zdravko Rajič', km: '113 km', time: '5:24:36', note: 'Prvi half' },
+      { name: 'Ekipa (Kemec, Kovač, Horvat)', km: 'Ekipno', time: '14:12:37', note: 'Ekipni viceprvak HR' },
+    ],
+  },
+  {
+    race: 'Dynamic Race Pula',
+    date: '26.9.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Goran Peić-Gavran', km: 'Hybrid (parovi)', time: '31:59', note: '3. mjesto parovi (od 23)' },
+      { name: 'Dean Brebrić', km: 'Hybrid (parovi)', time: '31:59', note: '3. mjesto parovi (od 23)' },
+    ],
+  },
+  {
+    race: 'WRRC Copenhagen Half Marathon',
+    date: '20.9.2026.',
+    year: '2026',
+    flag: '🇩🇰',
+    athletes: [
+      { name: 'Marko Horvat', km: '21.1 km', time: '1:15:25', note: '' },
+      { name: 'Mladen Kerin', km: '21.1 km', time: '1:37:11', note: '' },
+    ],
+  },
+  {
+    race: 'Julian Alps Trail by UTMB',
+    date: '20.9.2026.',
+    year: '2026',
+    flag: '🇸🇮',
+    athletes: [
+      { name: 'Božidar Mihić', km: '25 km', time: '03:10:38', note: '' },
+    ],
+  },
+  {
+    race: 'Ironman Italy Emilia-Romagna',
+    date: '19.9.2026.',
+    year: '2026',
+    flag: '🇮🇹',
+    athletes: [
+      { name: 'Toni Svijetlica', km: '226 km', time: '10:51:30', note: '' },
+    ],
+  },
+  {
+    race: '8. Pula maraton – Pulska X-ica',
+    date: '19.9.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Fran Volović', km: '10 km', time: '37:39', note: '' },
+    ],
+  },
+  {
+    race: 'Drenova trail',
+    date: '19.9.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Damir Jurišević', km: '10 km', time: '01:59:15', note: '' },
+    ],
+  },
+  {
+    race: 'Figarola plivački maraton Rovinj',
+    date: '12.9.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Božidar Mihić', km: '1.5 km', time: '30:37', note: '22. ukupno / 3. AG' },
+    ],
+  },
+  {
+    race: 'Aquathlon Porečki Delfin 2026',
+    date: '30.8.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Goran Peić-Gavran', km: '500m + 3km', time: '25:09', note: '3. mjesto ukupno' },
+      { name: 'Antonio Puniš', km: '500m + 3km', time: '27:33', note: '6. mjesto (M)' },
+      { name: 'Dean Brebrić', km: '500m + 3km', time: '27:42', note: '' },
+      { name: 'Luka Puniš', km: '500m + 3km', time: '30:24', note: '' },
+    ],
+  },
+  {
+    race: 'Velika planina trail',
+    date: '30.8.2026.',
+    year: '2026',
+    flag: '🇸🇮',
+    athletes: [
+      { name: 'Damir Jurišević', km: '10.5 km', time: '1:53:36', note: '' },
+    ],
+  },
+  {
     race: 'Ironman Krakow 70.3',
     date: '2.8.2026.',
     year: '2026',

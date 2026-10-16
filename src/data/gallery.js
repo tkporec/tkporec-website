@@ -17,6 +17,11 @@ export const galleryImages = [
   { src: '763239917_122244462332280053_6272576641830326043_n.jpg', alt: 'TK Poreč' },
   { src: '763925819_122244462326280053_9071921000682316570_n.jpg', alt: 'TK Poreč' },
   { src: 'viber_image_2026-07-25_09-53-38-645.jpg', alt: 'TK Poreč' },
+  { src: '809876215_122249708666280053_3437155896538558152_n.jpg', alt: 'TK Poreč – triatlon Zagreb' },
+  { src: '790865840_17960961909192176_2548234091867924411_n.jpg', alt: 'Aquathlon Porečki Delfin 2026' },
+  { src: '825292261_122251815584280053_1959449217411784329_n.jpg', alt: 'Dynamic Race Pula – 3. mjesto u parovima' },
+  { src: '825292371_122251815602280053_3774812048002981619_n.jpg', alt: 'Zadarhalf 2026 – TK Poreč' },
+  { src: '825292734_122251815590280053_8394438350900032746_n.jpg', alt: 'Zadarhalf 2026 – ekipni viceprvaci Hrvatske' },
 ]
 
 export function thumbUrl(img) {
