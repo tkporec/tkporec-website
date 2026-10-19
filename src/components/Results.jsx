@@ -3,6 +3,25 @@ import { useRef, useState } from 'react'
 
 const results = [
   {
+    race: 'Ironman 70.3 Plava Laguna Poreč',
+    date: '18.10.2026.',
+    year: '2026',
+    flag: '🇭🇷',
+    athletes: [
+      { name: 'Mislav Kemec', km: '113 km', time: '4:26:59', note: '' },
+      { name: 'Marko Horvat', km: '113 km', time: '4:32:11', note: 'Četvrti Hrvat na utrci' },
+      { name: 'Fran Volović', km: '113 km', time: '4:53:40', note: 'PB' },
+      { name: 'Zdravko Rajič', km: '113 km', time: '4:57:13', note: 'PB' },
+      { name: 'Goran Peić-Gavran', km: '113 km', time: '5:08:02', note: '' },
+      { name: 'Đurđica Orepić', km: '113 km', time: '5:10:45', note: '1. mjesto u kategoriji' },
+      { name: 'Dean Brebrić', km: '113 km', time: '5:16:07', note: '' },
+      { name: 'Božidar Mihić', km: '113 km', time: '5:20:47', note: 'PB' },
+      { name: 'Goran Saršon', km: '113 km', time: '5:24:57', note: '' },
+      { name: 'Mate Ćutuk', km: '113 km', time: '5:36:19', note: '' },
+      { name: 'Damir Blažević', km: '113 km', time: '5:46:33', note: '' },
+    ],
+  },
+  {
     race: 'Umag Run 2026 HM',
     date: '3.10.2026.',
     year: '2026',

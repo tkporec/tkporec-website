@@ -22,6 +22,20 @@ export const galleryImages = [
   { src: '825292261_122251815584280053_1959449217411784329_n.jpg', alt: 'Dynamic Race Pula – 3. mjesto u parovima' },
   { src: '825292371_122251815602280053_3774812048002981619_n.jpg', alt: 'Zadarhalf 2026 – TK Poreč' },
   { src: '825292734_122251815590280053_8394438350900032746_n.jpg', alt: 'Zadarhalf 2026 – ekipni viceprvaci Hrvatske' },
+  { src: 'IMG-0dbcd757eb837193344dac632ec5a666-V.jpg', alt: 'Ironman 70.3 Plava Laguna Poreč 2026 – Izlazak iz vode nakon plivanja' },
+  { src: 'IMG-20261018-WA0001(1).jpg', alt: 'Ironman 70.3 Plava Laguna Poreč 2026 – Članovi TK Poreč nakon utrke' },
+  { src: 'IMG-20261019-WA0001(1).jpg', alt: 'Ironman 70.3 Plava Laguna Poreč 2026 – Dodjela nagrada u kategoriji 60–64' },
+  { src: 'IMG-2c33d9995e81ab11acd71fdade76c10d-V.jpg', alt: 'Ironman 70.3 Plava Laguna Poreč 2026 – Trkačka dionica uz navijače' },
+  { src: 'IMG-3fc762f594218113e0a67a85e5473d86-V.jpg', alt: 'Ironman 70.3 Plava Laguna Poreč 2026 – Trčanje na crvenom tepihu' },
+  { src: 'IMG-67db96af3d9461c525f39e3fff097c7c-V.jpg', alt: 'Ironman 70.3 Plava Laguna Poreč 2026 – Trkačka dionica kroz Plavu Lagunu' },
+  { src: 'IMG-72afb2d8e65b37f46f7cbb387a4afaac-V.jpg', alt: 'Ironman 70.3 Plava Laguna Poreč 2026 – Članovi TK Poreč s finišerskim medaljama' },
+  { src: 'IMG-b97476354607013a8ee6ee91ec835e63-V.jpg', alt: 'Ironman 70.3 Plava Laguna Poreč 2026 – Natjecateljica TK Poreč na trkačkoj dionici' },
+  { src: 'IMG-bc500423731a16b9dd848658599abce7-V.jpg', alt: 'Ironman 70.3 Plava Laguna Poreč 2026 – Skidanje neoprena nakon plivanja' },
+  { src: 'IMG-cfdedb47b75a6bb3c87edfc8aae1e5ed-V.jpg', alt: 'Ironman 70.3 Plava Laguna Poreč 2026 – Trčanje uz more' },
+  { src: 'IMG-db649d1ab1d750e2f75ad36f9c38bc09-V.jpg', alt: 'Ironman 70.3 Plava Laguna Poreč 2026 – Proslava završetka utrke s medaljama' },
+  { src: 'IMG-e23f515df4f0242f8b1bb399cbdfc0cc-V.jpg', alt: 'Ironman 70.3 Plava Laguna Poreč 2026 – Pozdrav navijačima na trkačkoj dionici' },
+  { src: 'IMG-ec1229cfaf244e83fe09192fe5fb16f4-V.jpg', alt: 'Ironman 70.3 Plava Laguna Poreč 2026 – Natjecatelj TK Poreč na stazi' },
+  { src: 'IMG-f188a4fe49465c2e95c91de9f5de2dde-V.jpg', alt: 'Ironman 70.3 Plava Laguna Poreč 2026 – Trčanje kroz Plavu Lagunu' },
 ]
 
 export function thumbUrl(img) {
